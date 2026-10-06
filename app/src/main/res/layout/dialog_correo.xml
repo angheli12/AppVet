@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/inputCorreoDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo de destino"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/inputMensajeCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu consulta aquí..."
+        android:inputType="textLongMessage"
+        android:minLines="3" />
+
+</LinearLayout>

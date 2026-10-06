@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:gravity="center"
+    android:background="#F4FAF9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐾"
+        android:textSize="48sp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro Veterinario"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#174A45"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa los datos del paciente"
+        android:textSize="15sp"
+        android:textColor="#667C79"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/edtDueno"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Nombre del dueño"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:backgroundTint="#2A7F78"
+        android:textColor="#1E1E1E"
+        android:textColorHint="#7A8C89"
+        android:layout_marginBottom="18dp" />
+
+    <EditText
+        android:id="@+id/edtMascota"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Nombre de la mascota"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:backgroundTint="#2A7F78"
+        android:textColor="#1E1E1E"
+        android:textColorHint="#7A8C89"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="GUARDAR PACIENTE"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2A7F78" />
+
+</LinearLayout>
